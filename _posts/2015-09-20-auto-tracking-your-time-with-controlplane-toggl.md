@@ -53,24 +53,33 @@ Download and install the [ControlPlane](http://www.controlplaneapp.com).
 
 ### 4) Configuring the context
 The first thing, you must create the context, go to ControlPlane preferences:
+![ControlPlane_Preferences.png]({{site.baseurl}}/_posts/ControlPlane_Preferences.png)
 
-<a href="http://diegogiacomelli.com.br/wp-content/uploads/2015/09/ControlPlane_Preferences.png"><img src="{{ site.baseurl }}/assets/ControlPlane_Preferences-199x300.png" alt="ControlPlane" width="199" height="300" class="aligncenter size-medium wp-image-211" /></a></p>
-<p>Select tab "Contexts", and add I new context, in my case a called it "Skahal":<br />
-<a href="http://diegogiacomelli.com.br/wp-content/uploads/2015/09/ControlPlane_CreateContext.png"><img src="{{ site.baseurl }}/assets/ControlPlane_CreateContext-300x138.png" alt="ControlPlane_CreateContext" width="300" height="138" class="aligncenter size-medium wp-image-217" /></a></p>
-<h2>5) Configuring the evidence sources</h2>
-<p>Select the tab "Evidences sources", the option "Running Application" should be checked:<br />
-<a href="http://diegogiacomelli.com.br/wp-content/uploads/2015/09/ControlPlane_EvidenceSources.png"><img src="{{ site.baseurl }}/assets/ControlPlane_EvidenceSources-300x41.png" alt="ControlPlane_EvidenceSources" width="300" height="41" class="aligncenter size-medium wp-image-216" /></a></p>
-<h2>6) Configuring the rules</h2>
-<p>Select the tab "Rules", add a new rule to your context, the rule must be of type "Running Application" to Unity 3D:<br />
-<a href="http://diegogiacomelli.com.br/wp-content/uploads/2015/09/ControlPlane_Rules.png"><img src="{{ site.baseurl }}/assets/ControlPlane_Rules-300x79.png" alt="ControlPlane_Rules" width="300" height="79" class="aligncenter size-medium wp-image-215" /></a></p>
-<h2>7) Configuring the actions</h2>
-<p>Select the tab "Actions", we'll create 3 new actions: the first one is a task to open Safari in the Toggl timer task page, this is an optional action, but I like to see the task running (and I can stop/start it manually sometimes). Add a action of type "Open URL" with the address "https://www.toggl.com/app/timer", select "On Arrival" and your context:<br />
-<a href="http://diegogiacomelli.com.br/wp-content/uploads/2015/09/ControlPlane_Actions.png"><img src="{{ site.baseurl }}/assets/ControlPlane_Actions-300x28.png" alt="ControlPlane_Actions" width="300" height="28" class="aligncenter size-medium wp-image-214" /></a></p>
-<p>The second one is a action to start the task in the Toggl when the context starts. Add a action of type "Shell Script", in the field "Parameter" type the path to your startTogglTimeEntry.sh script, select "On Arrival" and your context:<br />
-<a href="http://diegogiacomelli.com.br/wp-content/uploads/2015/09/ControlPlane_StartTogglTask.png"><img src="{{ site.baseurl }}/assets/ControlPlane_StartTogglTask-300x118.png" alt="ControlPlane_StartTogglTask" width="300" height="118" class="aligncenter size-medium wp-image-213" /></a></p>
-<p>The third one is a action to stop the task in the Toggl when the context ends. Add a action of type "Shell Script", in the field "Parameter" type the path to your stopTogglTimeEntry.sh script, select "On Arrival" and your context:<br />
-<a href="http://diegogiacomelli.com.br/wp-content/uploads/2015/09/ControlPlane_StopTogglTask.png"><img src="{{ site.baseurl }}/assets/ControlPlane_StopTogglTask-300x116.png" alt="ControlPlane_StopTogglTask" width="300" height="116" class="aligncenter size-medium wp-image-212" /></a></p>
-<h2>8) Test everything</h2>
-<p>Open Unity3D editor, in the almost same time your context must be activated and the Safari must open the Toggl url with "Programming" task started.</p>
-<p>Now, close the Unity3D and the "Programming" task must be stopped on Toggl.com.</p>
-<p>That's it. ControlPlane is an amazing app and things we can automate with it is nearly infinite!</p>
+Select tab "Contexts", and add I new context, in my case a called it "Skahal":
+![ControlPlane_CreateContext.png]({{site.baseurl}}/_posts/ControlPlane_CreateContext.png)
+
+### 5) Configuring the evidence sources
+Select the tab "Evidences sources", the option "Running Application" should be checked:
+![ControlPlane_EvidenceSources.png]({{site.baseurl}}/_posts/ControlPlane_EvidenceSources.png)
+
+### 6) Configuring the rules
+Select the tab "Rules", add a new rule to your context, the rule must be of type "Running Application" to Unity 3D:
+![ControlPlane_Rules.png]({{site.baseurl}}/_posts/ControlPlane_Rules.png)
+
+### 7) Configuring the actions
+Select the tab "Actions", we'll create 3 new actions: the first one is a task to open Safari in the Toggl timer task page, this is an optional action, but I like to see the task running (and I can stop/start it manually sometimes). Add a action of type "Open URL" with the address "https://www.toggl.com/app/timer", select "On Arrival" and your context:
+
+![ControlPlane_Actions.png]({{site.baseurl}}/_posts/ControlPlane_Actions.png)
+
+The second one is a action to start the task in the Toggl when the context starts. Add a action of type "Shell Script", in the field "Parameter" type the path to your startTogglTimeEntry.sh script, select "On Arrival" and your context:
+![ControlPlane_StartTogglTask.png]({{site.baseurl}}/_posts/ControlPlane_StartTogglTask.png)
+
+The third one is a action to stop the task in the Toggl when the context ends. Add a action of type "Shell Script", in the field "Parameter" type the path to your stopTogglTimeEntry.sh script, select "On Arrival" and your context:<br />
+![ControlPlane_StopTogglTask.png]({{site.baseurl}}/_posts/ControlPlane_StopTogglTask.png)
+
+### 8) Test everything
+Open Unity3D editor, in the almost same time your context must be activated and the Safari must open the Toggl url with "Programming" task started.
+
+Now, close the Unity3D and the "Programming" task must be stopped on Toggl.com.
+
+***That's it. ControlPlane is an amazing app and things we can automate with it is nearly infinite!***
