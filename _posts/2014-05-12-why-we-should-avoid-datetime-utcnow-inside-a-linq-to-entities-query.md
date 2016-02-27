@@ -10,24 +10,30 @@ type: post
 
 ### What is the diference between these two Linq queries?
 **Query 1**
+
 ```csharp
 var filterDate = DateTime.UtcNow;
 ctx.Set.Where(m => m.DateTime > filterDate);
 ```
+
 **Query 2**
+
 ```csharp
 ctx.Set.Where(m => m.DateTime > DateTime.UtcNow);
 ```
 The first one will generate a SQL with WHERE clause like this:
+
 ```sql
 DateTime > @p__linq__1
 ```
 Where @p__linq__1 is the value of our filterDate variable.
 
 The second one will generate this WHERE clause:
+
 ```sql
 DateTime > SysUtcDateTime()
 ```
+
 ### What is the problem?
 Imagine that we're using the second query inside some sync algorithm in our C# code, this algorithm is very sensitive about time, now imagine that the server where our C# code is running has a difference about seconds or minutes with the database server?</p>
 
