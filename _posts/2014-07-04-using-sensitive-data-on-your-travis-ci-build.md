@@ -2,12 +2,13 @@
 published: true
 layout: post
 title: Using sensitive data on your Travis CI build
-date: {}
+date: 2014-07-14T00:00:00.000Z
 type: post
 tags: 
   - Continuous Integration
   - Functional Tests
 ---
+
 
 
 
