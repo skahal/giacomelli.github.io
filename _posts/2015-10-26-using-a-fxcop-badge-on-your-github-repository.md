@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Using a FxCop badge on your GitHub repository
 ---
 
