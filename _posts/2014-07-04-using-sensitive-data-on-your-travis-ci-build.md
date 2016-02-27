@@ -11,6 +11,7 @@ tags:
 
 
 
+
 You have programmed an amazing functional tests to validate your infrastructure service that connect on Google Docs.
 
 These functional tests run perfect well on your development machine and **now you want to run them on Travis CI**, but how to do this **without reveal your Google's username and password worldwide?**
