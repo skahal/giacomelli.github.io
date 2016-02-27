@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 ---
+
 
 ## DDD by quotes
 
