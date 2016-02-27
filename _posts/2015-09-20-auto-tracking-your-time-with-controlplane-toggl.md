@@ -24,7 +24,6 @@ curl -v -u <api-token>:api_token \
     -H "Content-Type: application/json" \
     -d '{"time_entry":{"description":"Programming","tags":[],"pid":<project-id>,"created_with":"curl"}}' \
     -X POST https://www.toggl.com/api/v8/time_entries/start
-<project-id><api-token>
 ```
 
 As you can see we need to replace two things in this script:
@@ -42,7 +41,6 @@ taskid=`curl -v -u <api-token>:api_token -X GET https://www.toggl.com/api/v8/tim
 curl -v -u <api-token>:api_token \
     -H "Content-Type: application/json" \
     -X PUT https://www.toggl.com/api/v8/time_entries/$taskid/stop
-</api-token></api-token>
 ```
 
 This script discover the latest task started at Toggl and stop it.
@@ -54,29 +52,35 @@ Download and install the [ControlPlane](http://www.controlplaneapp.com).
 
 ### 4) Configuring the context
 The first thing, you must create the context, go to ControlPlane preferences:
-![ControlPlane_Preferences.png]({{site.baseurl}}/_posts/ControlPlane_Preferences.png)
+
+![ControlPlane_Preferences.png](../images/ControlPlane_Preferences.png)
 
 Select tab "Contexts", and add I new context, in my case a called it "Skahal":
-![ControlPlane_CreateContext.png]({{site.baseurl}}/_posts/ControlPlane_CreateContext.png)
+
+![ControlPlane_CreateContext.png](../images/ControlPlane_CreateContext.png)
 
 ### 5) Configuring the evidence sources
 Select the tab "Evidences sources", the option "Running Application" should be checked:
-![ControlPlane_EvidenceSources.png]({{site.baseurl}}/_posts/ControlPlane_EvidenceSources.png)
+
+![ControlPlane_EvidenceSources.png](../images/ControlPlane_EvidenceSources.png)
 
 ### 6) Configuring the rules
 Select the tab "Rules", add a new rule to your context, the rule must be of type "Running Application" to Unity 3D:
-![ControlPlane_Rules.png]({{site.baseurl}}/_posts/ControlPlane_Rules.png)
+
+![ControlPlane_Rules.png](../images/ControlPlane_Rules.png)
 
 ### 7) Configuring the actions
 Select the tab "Actions", we'll create 3 new actions: the first one is a task to open Safari in the Toggl timer task page, this is an optional action, but I like to see the task running (and I can stop/start it manually sometimes). Add a action of type "Open URL" with the address "https://www.toggl.com/app/timer", select "On Arrival" and your context:
 
-![ControlPlane_Actions.png]({{site.baseurl}}/_posts/ControlPlane_Actions.png)
+![ControlPlane_Actions.png](../images/ControlPlane_Actions.png)
 
 The second one is a action to start the task in the Toggl when the context starts. Add a action of type "Shell Script", in the field "Parameter" type the path to your startTogglTimeEntry.sh script, select "On Arrival" and your context:
-![ControlPlane_StartTogglTask.png]({{site.baseurl}}/_posts/ControlPlane_StartTogglTask.png)
 
-The third one is a action to stop the task in the Toggl when the context ends. Add a action of type "Shell Script", in the field "Parameter" type the path to your stopTogglTimeEntry.sh script, select "On Arrival" and your context:<br />
-![ControlPlane_StopTogglTask.png]({{site.baseurl}}/_posts/ControlPlane_StopTogglTask.png)
+![ControlPlane_StartTogglTask.png](../images/ControlPlane_StartTogglTask.png)
+
+The third one is a action to stop the task in the Toggl when the context ends. Add a action of type "Shell Script", in the field "Parameter" type the path to your stopTogglTimeEntry.sh script, select "On Arrival" and your context:
+
+![ControlPlane_StopTogglTask.png](../images/ControlPlane_StopTogglTask.png)
 
 ### 8) Test everything
 Open Unity3D editor, in the almost same time your context must be activated and the Safari must open the Toggl url with "Programming" task started.

@@ -1,8 +1,10 @@
 ---
 published: true
+layout: post
 title: Using a FxCop badge on your GitHub repository
 ---
 
+![](../images/FxCopBadge.png)
 
 The use of badges on GitHub repositories helps us to promote good pratices about our code. Some amazing services like the [Shileds.io](http://shields.io) can generate almost all badges you can imagine, but what about those badges where there is no such online service to perform this job? One common case is when you program with C# and want some FxCop badge but there is no online service to run FxCop.
 
@@ -40,6 +42,7 @@ Edit your readme.md and add the line below:
 ```
 ![FxCop](https://badgessharp.apphb.com/badges/:owner/:repo/FxCop)
 ```
+
 Sample badges: ![](https://badgessharp.apphb.com/badges/giacomelli/BadgesSharp/FxCop) ![](https://badgessharp.apphb.com/badges/giacomelli/SampleProject/FxCop)
 
 ### How use it on your Continuous Integration?
@@ -48,7 +51,7 @@ Probably you’re using some continuous integration service, below are some samp
 #### AppVeyor
 
 * Add to your AppVeyor.yml file:
-```yaml
+```
 after_build:
         - cmd: >
         "C:\Program Files (x86)\Microsoft Fxcop 10.0\FxCopCmd.exe" /project:[Your FxCop file].FxCop /out:fxcop-report.xml
