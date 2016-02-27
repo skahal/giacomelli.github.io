@@ -3,9 +3,8 @@ published: true
 itle: Improving your debug with DebuggerDisplay
 type: post
 title: Improving your debug with DebuggerDisplay
+layout: post
 ---
-
-
 
 There is an amazing and easy to use custom attribute on .NET Framework stack that I rarely see in use. It helps and improve the way you can debug your code and you just need a line of code to use it: **DebuggerDisplay**.
 
