@@ -24,7 +24,7 @@ public class Tweet
 ```
 
 You are debugging a list of Tweets, let me say 200 tweets, and all tweets in the debugger view looks like the image below:
-![NoDebuggerDisplay.png]({{site.baseurl}}/_posts/NoDebuggerDisplay.png)
+![NoDebuggerDisplay.png](../images/NoDebuggerDisplay.png)
 
 It's clear that is not easy to know what tweets are inside that list. Of course you can use breakpoint conditions, trace, logs and many others resources to help the debug process, but DebuggerDisplay is an easier and very cheap solution.
 
@@ -42,9 +42,9 @@ public class Tweet
 ```
 
 **Now, that "secret" tweet list looks like:**
-![DebuggerDisplayInAction.png]({{site.baseurl}}/_posts/DebuggerDisplayInAction.png)
+![DebuggerDisplayInAction.png](../images/DebuggerDisplayInAction.png)
 
 _When debugging is easier than expected_
-![When debugging is easier than expected]({{site.baseurl}}/_posts/whenDebugIsEasyThanExpected.gif)
+![When debugging is easier than expected](../images/whenDebugIsEasyThanExpected.gif)
 
 _More information about DebuggerDisplay on official documentation: [msdn.microsoft.com/en-us/library/ms228992(v=vs.110).aspx](http://msdn.microsoft.com/en-us/library/ms228992(v=vs.110).aspx)_
