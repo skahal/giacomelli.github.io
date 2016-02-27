@@ -6,6 +6,7 @@ type: post
 ---
 
 
+
 **Because we can get unexpected results! (after read this tip, will be expected results ;))**
 
 ### What is the diference between these two Linq queries?
@@ -35,7 +36,7 @@ DateTime > SysUtcDateTime()
 ```
 
 ### What is the problem?
-Imagine that we're using the second query inside some sync algorithm in our C# code, this algorithm is very sensitive about time, now imagine that the server where our C# code is running has a difference about seconds or minutes with the database server?</p>
+Imagine that we're using the second query inside some sync algorithm in our C# code, this algorithm is very sensitive about time, now imagine that the server where our C# code is running has a difference about seconds or minutes with the database server?
 
 **YES, UNEXPECTED RESULTS!**
 
