@@ -1,8 +1,9 @@
 ---
-published: false
+published: true
 layout: post
 title: Getting your code documentation at runtime
 ---
+
 
 In some situations, like generate a live console for a web api or generate code using T4 template we need a way to read the code documentation at runtime.
 
