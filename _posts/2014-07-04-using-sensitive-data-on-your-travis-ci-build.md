@@ -1,13 +1,14 @@
 ---
-published: false
+published: true
 layout: post
 title: Using sensitive data on your Travis CI build
-date: 2014-07-04T16:07:02.000Z
+date: {}
 type: post
 tags: 
   - Continuous Integration
   - Functional Tests
 ---
+
 
 You have programmed an amazing functional tests to validate your infrastructure service that connect on Google Docs.
 
