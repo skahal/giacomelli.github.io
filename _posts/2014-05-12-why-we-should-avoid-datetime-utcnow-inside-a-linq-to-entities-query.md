@@ -1,8 +1,10 @@
 ---
-published: false
+published: true
 layout: post
 title: "Why we should avoid DateTime.UtcNow inside a Linq to Entities query?"
+type: post
 ---
+
 
 **Because we can get unexpected results! (after read this tip, will be expected results ;))**
 
