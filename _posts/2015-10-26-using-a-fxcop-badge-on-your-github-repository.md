@@ -4,11 +4,11 @@ layout: post
 title: Using a FxCop badge on your GitHub repository
 ---
 
-![](../images/FxCopBadge.png)
-
 The use of badges on GitHub repositories helps us to promote good pratices about our code. Some amazing services like the [Shileds.io](http://shields.io) can generate almost all badges you can imagine, but what about those badges where there is no such online service to perform this job? One common case is when you program with C# and want some FxCop badge but there is no online service to run FxCop.
 
 ### BadgesSharp
+![](../images/FxCopBadge.png)
+
 To fill this gap I created the BadgesSharp service: [http://badgessharp.apphb.com](http://badgessharp.apphb.com). BadgesSharp is a free service to generate badges that need some kind of input and processing before you can display them on GitHub repositories.
 
 In the case of FxCop, we need to run it against our .NET code and send the result report to BadgesSharp and then the service will generate the FxCop badge.
@@ -51,7 +51,8 @@ Probably you’re using some continuous integration service, below are some samp
 #### AppVeyor
 
 * Add to your AppVeyor.yml file:
-```
+
+```yaml
 after_build:
         - cmd: >
         "C:\Program Files (x86)\Microsoft Fxcop 10.0\FxCopCmd.exe" /project:[Your FxCop file].FxCop /out:fxcop-report.xml
@@ -63,8 +64,8 @@ after_build:
 
 * Add the ‘FxCop’ step to your configuration (probably you already have it);
 * Add a final ‘Command Line’ step to your configuration:
-* * Execute step: Even if some of the previous steps failed
-* * Run: Custom script
+  * Execute step: Even if some of the previous steps failed
+  * Run: Custom script
 Custom script:
 
 ```
