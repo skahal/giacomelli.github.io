@@ -43,8 +43,7 @@ public class Tweet
 **Now, that "secret" tweet list looks like:**
 ![DebuggerDisplayInAction.png]({{site.baseurl}}/_posts/DebuggerDisplayInAction.png)
 
-![whenDebugIsEasyThanExpected.gif]({{site.baseurl}}/_posts/whenDebugIsEasyThanExpected.gif)
-
 _When debugging is easier than expected_
+![When debugging is easier than expected]({{site.baseurl}}/_posts/whenDebugIsEasyThanExpected.gif)
 
 _More information about DebuggerDisplay on official documentation: [msdn.microsoft.com/en-us/library/ms228992(v=vs.110).aspx](http://msdn.microsoft.com/en-us/library/ms228992(v=vs.110).aspx)_
