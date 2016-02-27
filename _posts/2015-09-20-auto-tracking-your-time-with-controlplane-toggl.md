@@ -1,8 +1,9 @@
 ---
-published: false
+published: true
 layout: post
 title: Auto tracking your time with ControlPlane + Toggl
 ---
+
 
 So, do you want to track the time you spend in some tasks, but always forget to start the time tracking?
 
