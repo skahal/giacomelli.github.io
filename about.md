@@ -4,14 +4,10 @@ title: About
 permalink: /about/
 published: true
 ---
+![](images/Skahal-Blibioteca.jpg)
 
-I have programmed software and games in the last 15 years.
+Skahal Studios is a young development company born from the dream of two minds in unison.
 
-Below you can see some links about me:
+Our focus is to share little pieces of this dream in the form of games and apps.
 
-- Twitter account: [ogiacomelli](http://twitter.com/ogiacomelli)
-- GitHub account: [giacomelli](http://github.com/giacomelli)
-- Stack Overflow account: [giacomelli](http://stackoverflow.com/users/956886/giacomelli)
-- NuGet account: [g1acomell1](https://www.nuget.org/profiles/g1acomell1)
-- RunKeeper account: [giacomelli](http://runkeeper.com/user/giacomelli)
-- My indie game development company: [Skahal Studios](http://skahal.com)
+
