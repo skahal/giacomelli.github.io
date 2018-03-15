@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<company>	
+	<title>Skahal Studios</title>
+	<founding-date>July 5, 2010</founding-date>
+	<website>https://skahal.github.io</website>
+	<based-in>Porto Alegre - Brazil | Sassenheim - Nehterlands</based-in>
+	
+	<press-contact>skahalstudiosplay@gmail.com</press-contact>
+    <analytics>UA-115777003-1</analytics>
+	
+	<socials>
+		<social>
+			<name>twitter.com/ogiacomelli</name>
+			<link>https://twitter.com/ogiacomelli</link>
+		</social>
+		<social>
+			<name>twitter.com/giusepe</name>
+			<link>https://twitter.com/giusepe</link>
+		</social>
+		<social>
+			<name>github.com/skahal</name>
+			<link>https://github.com/skahal</link>
+		</social>
+	</socials>
+
+	<description>	
+		The Skahal Studios is an indie game development company.
+	</description>
+
+	<histories>
+    <history>
+      <text>Created in 2011 by Diego Giacomelli and Giusepe Casagrande, they start their journey with Ships N' Battles, a revamped battleship game with multiplayer between iOS, MacOs and Android devices.	</text>
+    </history>
+	<history>
+      <text>With over 500.000 downloads, Ships N' Battles was a great start.</text>
+    </history>
+  </histories>
+
+
+	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>ask</monetization-permission> <!-- can be: 	false (no video allowed),
+																			 	ask (permission on case-per-case basis),
+																			 	non-commercial (no monetization allowed),
+																			 	monetize (full permission) -->	
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Game designer and programmer</role>
+		</credit>
+		<credit>
+			<person>Giusepe Casagrande</person>
+			<role>Game designer and artist</role>
+		</credit>
+	</credits>
+	
+	<contacts>
+		<contact>
+			<name>Inquiries</name>
+			<mail>skahalstudiosplay@gmail.com</mail>
+		</contact>
+		<contact>
+			<name>Twitter</name>
+			<link>http://twitter.com/skahal</link>
+		</contact>
+		<contact>
+			<name>Facebook</name>
+			<link>http://facebook.com/SkahalStudios</link>
+		</contact>
+		<contact>
+			<name>Web</name>
+			<link>https://skahal.github.io</link>
+		</contact>
+	</contacts>
+</company>

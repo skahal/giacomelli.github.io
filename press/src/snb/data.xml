@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>Ships N' Battles</title>
+	<release-dates>
+		<release-date>iOS - 04 Jan, 2011</release-date>
+		<release-date>MacOs - 27 Jun 2012</release-date>
+		<release-date>Android - 02 Jul 202</release-date>
+	</release-dates>
+
+	<website>http://skahal.github.io/games/ships-n-battles</website>
+	<press-can-request-copy>TRUE</press-can-request-copy>
+	<press-copy-request>mailto:skahalstudiosplay@gmail.com</press-copy-request>
+
+	<platforms>
+		<platform>
+			<name>iOS</name>
+			<link> https://itunes.apple.com/us/app/ships-n-battles-hd/id510480132?mt=8</link>
+		</platform>
+		<platform>
+			<name>MacOS</name>
+			<link>https://itunes.apple.com/pt/app/ships-n-battles/id531527189?mt=12</link>
+		</platform>
+		<platform>
+			<name>Android</name>
+			<link>https://play.google.com/store/apps/details?id=com.skahal.shipsnbattles</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency>USD</currency>
+			<value>1.99</value>
+		</price>
+   	</prices>
+
+
+	<description>
+	Play the next generation of the classic game, controlling the most destructive power of the seas with a finger touch.
+	</description>
+	
+	<history>
+	Ships N' Battles is the next generation of the popular pencil-and- paper game 'Battleship', which is a fun and entertaining maritime combat game familiar to most gamers today; originally
+	a guessing game for two players prior to WWI, it was published by Milton Bradley Company in
+	1943 as the pad-and- pencil game, and as a board game in 1967. Compatible with the Apple
+	iPhone®, Apple iPod touch®, Apple iPad®, Mac and Android, Ships N' Battles offers players the
+	opportunity to partake in a modern version of this classic game by controlling the most
+	destructive power of the seas using nothing but your phone!
+	Featuring simplistic yet beautifully rendered HD graphics, your mission is to compete against your
+	friends and enemies in a battle to the death in either single or multi-player mode. Featuring 4
+	types of ships, 4 levels of difficulty, and 10 different bonuses including cools add-ons such as
+	guided missiles, decoy vessels and radar devices, this game is locked and loaded with cool
+	features. With Game Center Support, World Ranking Leader-boards and more than 30
+	achievements to unlock, 'Ships N’ Battles' takes blind maritime combat to an unprecedented
+	level.
+	</history>
+
+	<features>
+		<feature>4 types of ships</feature>
+		<feature>10 different bonuses</feature>
+		<feature>4 levels of difficulty</feature>
+		<feature>Multiplayer via Global Server (play against others iOS, Mac and Android)</feature>
+		<feature>Multiplayer via bluetooth (iOS)</feature>
+		<feature>Multiplayer via LAN (wifi)</feature>
+		<feature>Accelerated mode in the single player</feature>
+	</features>
+	
+	<trailers>
+		<trailer>
+			<name>Trailer</name>
+			<youtube>8qVJPZkMaRc</youtube>
+		</trailer>
+	</trailers>
+	
+	<widgets>
+		<appstore>510480132</appstore>
+		<playstore>com.skahal.shipsnbattles</playstore>
+	</widgets>
+
+	<quotes>
+		<quote>
+			<description>There's been a few attempts at making battleship games for the platform, as you’d expect. None are as good as Ships N' Battles.</description>
+			<name>Matt Sainsbury - 01/08/2012</name>
+			<website>Digitally Downloaded</website>
+			<link>http://www.digitallydownloaded.net/2012/08/review-ships-n-battles-ipad.html</link>
+		</quote>
+		<quote>
+			<description>Ships N' Battles is a battleships game for iOS and Mac with impressive 3D graphics and updated gameplay.</description>
+			<name>Connor Jones - 29/08/2012</name>
+			<website>App-Score</website>
+			<link>http://app-score.com/ships-n-battles/</link>
+		</quote>
+		<quote>
+			<description>Ships N' Battles is a gorgeous looking game.</description>
+			<name>Martin Baker - 27/08/2012</name>
+			<website>God is a geek</website>
+			<link>http://www.godisageek.com/2012/08/mobile-monday-mutant-roadkill-orc-vengeance-ships-n-battles-tone-sphere/</link>
+		</quote>
+		<quote>
+			<description>The game comes with some explosive graphics and fun interactions, but it still has a retro feel that honestly works quite well.</description>
+			<name>Ships N Battles HD: A 3D battleship game for iOS that’s cross-platform to the Mac - 02/10/2014</name>
+			<website>AppSaga</website>			
+			<link>http://appsaga.com/ships-n-battles-hd-3d-battleship-game-ios-thats-cross-platform-mac</link>			
+		</quote>	
+		<quote>
+			<description>Recently, there have been several adaptations to mobile devices, being this Ships N&#8217; Battles one of the most relevant.</description>
+			<name>A revision on the most classic game - 26/04/2013</name>
+			<website>appszoom</website>
+			<link>http://fr.appszoom.com/iphone-games/strategy/ships-n-battles_durcr.html</link>
+		</quote>
+		
+		<quote>
+			<description>is a nice addition and rendition of the classic game&#8230;it is homage, beautifully done to an already classic game that will give you unlimited hours of entertainment</description>
+			<name>Review &#8211; Ipad Review Wrap-Up #5 - 30/07/2012</name>
+			<website>The Gamer Paradise</website>
+			<link>http://thegamersparadise.com/ipad/review-ipad-review-wrap-up-5</link>
+		</quote>
+		
+		<quote>
+			<description>Los que sean adictos a este clásico no se pueden perder este juego</description>			
+			<name>Juegos Android de la Semana: Ships N´Battles, Dinosaur War, Broken Sword y Homerun Battle 2 - 20/07/2012 [es]</name>
+			<website>El Androide Libre</website>
+			<link>http://www.elandroidelibre.com/2012/07/juegos-android-de-la-semana-ships-n%C2%B4battles-dinosaur-war-broken-sword-y-homerun-battle-2.html</link>			
+		</quote>
+	
+		<quote>
+			<description>Dokopy tak táto hra ponúka niekoľko možností, ako sa môžete zabaviť na dlhšiu dobu!</description>
+			<name>Ships N’ Battles prináša klasické “lodičky” v HD kvalite aj pre Android - 11/07/2012 [sk] </name>
+			<website>Obedná prestávka</website>
+			<link>http://www.mojandroid.sk/hry/obedna-prestavka-ships-n-battles-prinasa-klasicke-lodicky-v-hd-kvalite-aj-pre-android</link>
+		</quote>
+		
+		<quote>
+			<description>CGRundertow Ships N' Battles for iPhone Video Game Review</description>
+			<name>CGRundertow Classic Game Room - 10/07/2012</name>
+			<website>YouTube</website>
+			<link>http://www.youtube.com/watch?v=v7yMYS9WeCU</link>
+		</quote>
+		
+		<quote>
+			<description>Tenha a nostalgia da batalha naval no seu android com o game Ships N’ Battles</description>
+			<name>10/07/2012 [pt]</name>
+			<website>Vida Info</website>
+			<link>http://www.vidainfo.com/2012/07/10/tenha-a-nostalgia-da-batalha-naval-no-seu-android-com-o-game-ships-n-battles/</link>
+		</quote>
+		
+		<quote>
+			<description>Ships N' Battles: Battaglia Navale è un&#8217;app</description>
+			<name>10/07/2012 [it]</name>
+			<website>Mobi2B</website>			
+			<link>http://www.mobi2b.it/articolo.php?aId=0000092858</link>
+		</quote>
+		
+		<quote>
+			<description>Ships N' Battles – klasické lodě v novém zpracování pro Android</description>		
+			<name>09/07/2012 [cz]</name>
+			<website>Android Market.cz</website>
+			<link>http://www.androidmarket.cz/hry/ships-n-battles-klasicke-lode-v-novem-zpracovani-pro-android/</link>
+		</quote>
+		
+		<quote>
+			<description>Ships N' Battles for Android brings battleships up to date</description>
+			<name>07/07/2012</name>
+			<website>Phones Reviews</website>
+			<link>http://www.phonesreview.co.uk/2012/07/07/ships-n-battles-for-android-brings-battleships-up-to-date/</link>			
+		</quote>
+		<quote>
+			<description>Ships N&#8217; Battles: la migliore battagli navale su Android</description>
+			<name>07/07/2012 [it]</name>
+			<website>Hdblog.it</website>
+			<link>http://android.hdblog.it/2012/07/07/ships-n-battles-la-migliore-battagli-navale-su-android/</link>
+		</quote>
+		
+		<quote>
+			<description>Battleships – Enjoy this classic game on your mobile</description>
+			<name>06/07/2012</name>
+			<website>Talk Android Phones</website>
+			<link>http://www.talkandroidphones.com/tag/battleships/</link>
+		</quote>
+		<quote>
+			<website>Android Police</website>
+			<name>06/07/2012</name>
+			<link>http://www.androidpolice.com/2012/07/06/skahal-studios-bring-an-hd-battleship-port-to-android-with-ships-n-battles/</link>
+			<description>Skahal Studios&#8217; Ships N&#8217; Battles Brings battleship To Android In HD, Multiplayer Fashion</description>
+		</quote>
+		<quote>
+			<description>The classic game of battleships gets revamped in Ships N&#8217; Battles, complete with multiplayer</description>
+			<name>06/07/2012</name>
+			<website>DroidGamers</website>
+			<link>http://www.droidgamers.com/index.php/game-news/android-game-news/4173-the-classic-game-of-battleships-gets-revamped-in-ship-n-battle-complete-with-multiplayer</link>
+		</quote>
+		<quote>
+			<description>Ships N&#8217; Battles HD: battaglia navale in 3D</description>
+			<name>28/06/2012 [it]</name>
+			<website>iPhone Italia</website>
+			<link>http://www.iphoneitalia.com/ships-n-battles-hd-battaglia-navale-in-3d-394003.html</link>					
+		</quote>
+		<quote>
+			<description>Ships N&#8217; Battles HD free right now thanks to Daily App Dream</description>
+			<name>25/06/2012</name>
+			<website>Padvance</website>
+			<link>http://www.padvance.com/story/ships-n-battles-hd-free-right-now-thanks-to-daily-app-dream</link>			
+		</quote>
+		<quote>
+			<description>Ships N&#8217; Battles&#8221; On iOS Is The Next Generation Of Handheld Maritime Combat</description>
+			<name>24/06/2012</name>
+			<website>Gamasutra</website>
+			<link>http://www.gamasutra.com/view/pressreleases/172932/lsquoShips_Nrsquo_Battlesrsquo_On_iOS_Is_The_NextGeneration_Of_Handheld_Maritime_Combat.php</link>
+		</quote>
+		<quote>
+			<description>Lançada a versão HD de Ships N&#8217; Battles</description>
+			<name>19/04/2012 [pt]</name>
+			<website>Titan Games</website>			
+			<link>http://www.titangames.com.br/2012/04/19/lancada-a-versao-hd-de-ships-nbattles/</link>			
+		</quote>
+		<quote>
+			<description>Jogo Ships N&#8217; Battles ganha versão HD</description>
+			<name>18/04/2012 [pt]</name>
+			<website>MacMagazine</website>
+			<link>http://macmagazine.com.br/2012/04/18/jogo-ships-n-battles-ganha-versao-hd-ja-compativel-com-a-tela-retina-do-novo-ipad</link>			
+		</quote>
+		<quote>
+			<description>Brasileiros lançam Ships N&#8217; Battles, jogo de batalha naval em 3D para iPhones/iPods touch</description>
+			<name>06/05/2011 [pt]</name>
+			<website>MacMagazine</website>
+			<link>http://macmagazine.com.br/2011/05/06/brasileiros-lancam-ships-n-battles-jogo-de-batalha-naval-em-3d-para-iphonesipods-touch</link>		
+		</quote>
+		<quote>
+			<description>Ships N&#8217; Battles Review &#8211; War is blind</description>		
+			<name>22/04/2011</name>
+			<website>iFanzine</website>
+			<link>http://ifanzine.com/ships-n-battles-review</link>			
+		</quote>
+		<quote>
+			<description>Batalha naval para iPhone e iPad</description>			
+			<name>15/04/2011 [pt] </name>
+			<website>Canal dos Games</website>
+			<link>http://wp.clicrbs.com.br/canaldosgames/2011/04/15/dica-batalha-naval-para-iphone-e-ipad</link>
+		</quote>
+		<quote>
+			<description>Criado por brasileiros, &#8220;Ships N&#8217; Battles&#8221; é jogo de batalha naval para iPod e iPhone</description>			
+			<name>14/04/2011 [pt]</name>
+			<website>UOL Jogos</website>
+			<link>http://jogos.uol.com.br/ultnot/multi/2011/04/14/ship-battle-jogo-de-batalha-naval-ios.jhtm</link>
+		</quote>
+		<quote>
+			<description>Proteja seus navios em Ships N' Battles</description>
+			<name>14/04/2011 [pt]</name>
+			<website>Indie Games Brasil</website>
+			<link>http://indiegamesbrasil.com/entrevistas/proteja-seus-navios-em-ships-ns-battles</link>			
+		</quote>
+		<quote>
+			<description>Skahal lança jogo Made in Brasil na App Store</description>
+			<name>14/04/2011 [pt]</name>
+			<website>Titan Games</website>
+			<link>http://www.titangames.com.br/2011/04/14/skahal-lanca-jogo-made-in-brasil-na-app-store</link>			
+		</quote>
+		<quote>
+			<description>Ships N&#8217; Battles – A Revolução da Batalha Naval</description>
+			<name>08/04/2011 [pt]</name>
+			<website>Select Game</website>
+			<link>http://www.selectgame.com.br/ships-n-battles-a-revolucao-da-batalha-naval/</link>			
+		</quote>	
+	</quotes>
+	
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Game designer and programmer</role>
+		</credit>
+		<credit>
+			<person>Giusepe Casagrande</person>
+			<role>Game designer and artist</role>
+		</credit>
+	</credits>
+</product>
