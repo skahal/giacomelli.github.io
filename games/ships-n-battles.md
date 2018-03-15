@@ -52,3 +52,5 @@ And there's more:
 * Accelerated mode in the single player
 
 ![](../images/ShipsNBattles-iPhone-1.png)
+
+_[press-kit](/press/kit/snb/index.html)_

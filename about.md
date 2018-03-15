@@ -9,3 +9,5 @@ published: true
 Brazilian indie game development company. The creators of Ships N' Battles and Buildron. 
 
 Team: [@ogiacomelli](https://twitter.com/ogiacomelli) and [@giusepe](https://twitter.com/giusepe).
+
+_[press-kit](/press/kit/index.html)_
