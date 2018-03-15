@@ -6,6 +6,6 @@ published: true
 ---
 ![](../images/Skahal-Blibioteca.jpg)
 
-Skahal Studios is a young development company born from the dream of two minds in unison.
+Brazilian indie game development company. The creators of Ships N' Battles and Buildron. 
 
-Our focus is to share little pieces of this dream in the form of games and apps.
+Team: [@ogiacomelli](https://twitter.com/ogiacomelli) and [@giusepe](https://twitter.com/giusepe).

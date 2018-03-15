@@ -204,6 +204,7 @@ img {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
+  font-style: italic;
 
   @include mobile {
     margin: 3px 0;
@@ -270,6 +271,15 @@ nav {
     font-size: 15px;
   }
 }
+
+blockquote {
+  border-left: 2px solid $gray;
+  padding: 0.1em 1em;
+  color: $gray;
+  font-size: 18px;
+  font-style: italic;
+}
+
 
 .wrapper-footer {
   margin-top: 50px;
