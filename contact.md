@@ -4,5 +4,6 @@ title: Contact
 permalink: /contact/
 published: true
 ---
-Contact us using some of the methods below:
+You can [subscribe to our newsletter](http://eepurl.com/dol_W1).
 
+Or contact us using some of the methods below:
